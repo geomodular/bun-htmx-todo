@@ -1,4 +1,4 @@
-# Bun + HTMX test application
+## ToDo list web application using Bun + HTMX
 
 To install dependencies:
 
