@@ -1,0 +1,21 @@
+{
+  "name": "bun-react-template",
+  "version": "0.1.0",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react-dom": "^19",
+    "prettier": "^3.7.3",
+    "prettier-plugin-organize-imports": "^4.3.0"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "bun --hot src/index.tsx",
+    "build": "bun build ./src/index.html --outdir=dist --sourcemap --target=browser --minify --define:process.env.NODE_ENV='\"production\"' --env='BUN_PUBLIC_*'",
+    "start": "NODE_ENV=production bun src/index.tsx",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
+  },
+  "type": "module",
+  "dependencies": {
+    "react-dom": "^19.2.0"
+  }
+}

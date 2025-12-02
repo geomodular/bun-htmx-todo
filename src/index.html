@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToDo POC App (Bun + HTMX)</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.min.js"></script>
+</head>
+
+<body>
+  <main hx-trigger="load" hx-get="/components/todo"></main>
+</body>
+
+</html>
