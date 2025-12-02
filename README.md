@@ -1,4 +1,4 @@
-# bun-react-template
+# Bun + HTMX test application
 
 To install dependencies:
 
